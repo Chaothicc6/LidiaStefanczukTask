@@ -109,7 +109,24 @@ const users1 = {
   users1
 
   if (users.firstName = users1.firstName) {
-  return "true"; }
+    return "true"; }
   if (users.firstName != users1.firstName) { 
-alert ("First Name of the User is incorrect. First name is " + (users.firstName) + " but the second one is" + (users1.firstName) + ".");
+console.alert = ("First Name of the User " + users.userId + "  is incorrect. First name is " + (users.firstName) + " but the second one is" + (users1.firstName) + ".");
+  };
+  if (users.lastName = users1.lastName) {
+    return console = "true"; }
+  if (users.lastName != users1.lastName) { 
+console.alert = ("Last Name of the User " + users.userId + " is incorrect. First value is " + (users.lastName) + " but the second one is" + (users1.lastName) + ".");
+  };
+
+  if (users.phoneNumber = users1.phoneNumber) {
+    return console = "true"; }
+  if (users.phoneNumber != users1.phoneNumber) { 
+console.alert = ("Phone number of the User " + users.userId + "  is incorrect. First given number is " + (users.phoneNumber) + " but the second one is" + (users1.phoneNumber) + ".");
+  };
+
+  if (users.emailAddress = users1.emailAddress) {
+    return console = "true"; }
+  if (users.emailAddress != users1.emailAddress) { 
+console.alert = ("E-mail address of the User " + users.userId + "  is incorrect. First one is " + (users.emailAddress) + " but the second one is" + (users1.emailAddress) + ".");
   };
